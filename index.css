@@ -1,12 +1,32 @@
 @import url("./styles/cabeçalho.css");
+@import url("./styles/banner.css");
 
 @font-face {
-    font-family: Dhujarti;
-    src: url("./fonts/Dhurjati-Regular.ttf");
+    font-family: Kalnia;
+    src: url("./fonts/Kalnia-VariableFont_wdth\,wght.ttf");
 }
 @font-face{
     font-family: anonymus;
     src: url("./fonts/AnonymousPro-Regular.ttf");
+}
+
+@keyframes slide-top {
+    0% {
+        transform: translateY(-100px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    80%{
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.slide-top {
+	animation: slide-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 :root{
@@ -14,6 +34,7 @@
     --cinza-medio: #3d3838;
     --cinza-claro: #afafaf;
     --fonte-principal: anonymus;
+    --fonte-secundaria: Kalnia;
 }
 
 body{
