@@ -1,5 +1,21 @@
 @import url("./styles/cabeçalho.css");
 
+@font-face {
+    font-family: Dhujarti;
+    src: url("./fonts/Dhurjati-Regular.ttf");
+}
+@font-face{
+    font-family: anonymus;
+    src: url("./fonts/AnonymousPro-Regular.ttf");
+}
+
 :root{
-    --cor-primaria: black;
+    --cinza-escuro: #121212;
+    --cinza-medio: #3d3838;
+    --cinza-claro: #afafaf;
+    --fonte-principal: anonymus;
+}
+
+body{
+    background-color: var(--cinza-escuro);
 }

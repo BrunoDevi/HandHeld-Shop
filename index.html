@@ -9,25 +9,35 @@
 </head>
 <body>
     <header class="cabeçalho">
-        <img src="./img/index-Logo.png" alt="Logo">
         <ul class="cabeçalho__menu">
-            <li class="menu__link">
-                <a href="index.html">Home</a>
+            <img class="cabeçalho__logo" src="./img/cabeçalho/index-Logo.png" alt="Logo">
+            <li class="cabeçalho__menu__topic">
+                <a class="topic__title" href="index.html">Home</a>
             </li>
-            <li class="menu__link">
-                <a href="index.html">About Us</a>
+            <li class="cabeçalho__menu__topic">
+                <a class="topic__title" href="index.html">Sobre Nos</a>
             </li>
-            <li class="menu__link">
-                <a href="index.html">How it works</a>
+            <li class="cabeçalho__menu__topic">
+                <a class="topic__title" href="index.html">Como Funciona</a>
             </li>
-            <li class="menu__link">
-                <a href="index.html">Catalog</a>
-            </li>
-            <li class="menu__link">
-                <a href="index.html">Contact</a>
+            <li class="cabeçalho__menu__topic">
+                <input type="checkbox" id="topic__product" class="link__check">
+                <label for="topic__product">
+                    <p class="topic__title">Produtos</p>
+                </label>
+                <section class="product__lista-menu">
+                    <a href="#" class="lista-menu__link">Consoles</a>
+                    <a href="#" class="lista-menu__link">Acessorios</a>
+                </section>
             </li>
         </ul>
+        <section class="cabeçalho__icones">
+            <a href="#" class="icones__link"><img src="./img/cabeçalho/icons8-lupa-30.png" alt="lupa de pesquisa"></a>
+            <a href="#" class="icones__link"><img src="./img/cabeçalho/icons8-usuário-48.png" alt="meu perfil"></a>
+            <a href="#" class="icones__link"><img src="./img/cabeçalho/icons8-sacola-de-compras-48.png" alt="sacola de compras"></a>
+        </section>
     </header>
+    <img src="./img/triangles-1430105.svg" alt="fundo de triangulos">
 </body>
 <script src="index.js"></script>
 </html>
