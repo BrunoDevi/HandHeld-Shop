@@ -19,7 +19,6 @@
     width: 5rem;
     height: 5rem;
     margin: 1.8rem;
-    border-radius: 10px;
 }
 
 .cabeçalho__menu{
@@ -66,8 +65,7 @@
 }
 
 .link__check:checked + label .topic__title {
-    text-decoration: underline;
-    color: white;
+    text-decoration: underline white;
 }
 
 .link__check:checked + label + img + .product__lista-menu {

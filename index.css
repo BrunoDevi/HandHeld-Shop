@@ -47,9 +47,10 @@
 }
 
 :root{
-    --cinza-escuro: #1f1c1c;
+    --cinza-escuro: #dbdbdb;
     --cinza-medio: #3d3838;
-    --cinza-claro: #b0b0b0;
+    --cinza-claro: #1f1c1c;
+    --verde-gradiente: linear-gradient(to right, #00ff00, #008d0c);
     --fonte-principal: anonymus;
     --fonte-secundaria: Kalnia;
 }

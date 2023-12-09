@@ -20,7 +20,7 @@
 }
 
 .links__title{
-    color: white;
+    color: var(--cinza-claro);
     font-size: 24px;
     font-weight: 500;
     font-family: var(--fonte-principal);
@@ -49,7 +49,7 @@
 }
 
 #email::placeholder{
-    color: white;
+    color: var(--cinza-claro);
 }
 
 .footer__cards{

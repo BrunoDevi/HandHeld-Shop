@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <style>
+    .swiper-container {
+      width: 10rem;
+      margin: 2rem;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Adicione estilos adicionais conforme necessário */
+    }
+    .swiper-slide img{
+        width: 8rem;
+        height: 8rem;
+    }
+  </style>
+  <title>Carousel Example</title>
+</head>
+<body>
+
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="/img/cabeçalho/site-logo.svg" alt=""></div>
+    <div class="swiper-slide"><img src="/img/cabeçalho/site-logo.svg" alt=""></div>
+    <div class="swiper-slide"><img src="/img/cabeçalho/site-logo.svg" alt=""></div>
+    <!-- Adicione mais slides conforme necessário -->
+  </div>
+  <!-- Adicione navegação do carrossel -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+
+<!-- Adicione a biblioteca Swiper -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+  // Inicialize o Swiper
+  var swiper = new Swiper('.swiper-container', {
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+
+</body>
+</html>
