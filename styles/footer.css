@@ -1,4 +1,6 @@
-.footer{
+
+
+.footer__content{
     font-family: var(--fonte-principal);
     color: var(--cinza-claro);
     width: 100%;
@@ -7,6 +9,7 @@
     display: flex;
     align-items:flex-start;
     justify-content: space-between;
+    border-bottom: 1px solid hsl(0, 0%, 69%, 0.3);;
 }
 
 .footer__links{
@@ -47,4 +50,17 @@
 
 #email::placeholder{
     color: white;
+}
+
+.footer__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.8rem;
+}
+
+.card__icon{
+    width: 30px;
+    height: 30px;
 }
