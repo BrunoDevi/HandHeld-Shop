@@ -32,6 +32,13 @@
 .cabeçalho__menu__topic{
     position: relative;
     padding: 8px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.cabeçalho__menu__topic img{
+    width: 16px;
 }
 
 .topic__title:hover{
@@ -63,7 +70,7 @@
     color: white;
 }
 
-.link__check:checked + label + .product__lista-menu {
+.link__check:checked + label + img + .product__lista-menu {
     display: flex;
     flex-direction: column;
     gap: 1rem;
