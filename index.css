@@ -30,7 +30,7 @@
 }
 
 :root{
-    --cinza-escuro: #121212;
+    --cinza-escuro: #1f1c1c;
     --cinza-medio: #3d3838;
     --cinza-claro: #afafaf;
     --fonte-principal: anonymus;
@@ -39,4 +39,8 @@
 
 body{
     background-color: var(--cinza-escuro);
+}
+
+.pageDown{
+    height: 100vw;
 }

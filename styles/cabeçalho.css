@@ -10,6 +10,9 @@
     padding: 1rem;
     font-family: var(--fonte-principal);
     font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 
 .cabeçalho__logo{
