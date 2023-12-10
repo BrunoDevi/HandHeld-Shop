@@ -1,6 +1,7 @@
 @import url("./styles/cabeçalho.css");
 @import url("./styles/banner.css");
 @import url("./styles/footer.css");
+@import url("./styles/carossel.css");
 
 @font-face {
     font-family: Kalnia;
@@ -75,6 +76,7 @@ body{
     box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);;
     opacity: 0; 
     transition: opacity 0.3s ease-in-out;
+    z-index: 10000;
 }
 
 .botao-topo:hover {

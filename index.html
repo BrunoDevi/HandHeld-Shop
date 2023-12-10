@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="./img/icons8-martelo-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>Art Express</title>
 </head>
 <body>
@@ -51,6 +52,35 @@
             <a href="#" class="button">Como Funciona</a>
         </section>
     </section>
+
+    <Section class="Destaque">
+        <div class="Destaque__card">
+            <h2>Product 1</h2>
+            <p>Description of Product 1.</p>
+            <p>Price: $19.99</p>
+            <a href="#" class="btn">View Product</a>
+        </div>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide"><img src="./img/carossel/item-picture1.jpeg" alt="pic1"></div>
+                <div class="swiper-slide"><img src="./img/carossel/item-picture2.jpeg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/carossel/item-picture3.jpeg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/carossel/item-picture4.jpeg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/carossel/item-picture5.jpeg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/carossel/item-picture6.jpeg" alt=""></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </Section>
 
     <footer class="footer">
         <section class="footer__content">
@@ -119,6 +149,7 @@
         </ul>
     </footer>
     <button class="botao-topo" onclick="Top()"><img src="./img/pra-cima.png" alt="Subir"></button>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 <script src="index.js"></script>
 </html>

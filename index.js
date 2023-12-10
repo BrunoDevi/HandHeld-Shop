@@ -13,6 +13,8 @@ window.addEventListener('scroll', function() {
     }
 });
 
+//configurações seta cabeçalho
+
 // Obtém referências para o input e a imagem
 var inputCheckbox = document.getElementById('topic__product');
 var arrowImage = document.getElementById('arrowImage');
@@ -28,3 +30,29 @@ inputCheckbox.addEventListener('change', function() {
         arrowImage.src = './img/cabeçalho/icons8-seta-para-expandir-24.png';
     }
 });
+
+
+
+// configurações do carrosel:
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
