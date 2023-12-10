@@ -24,10 +24,10 @@ inputCheckbox.addEventListener('change', function() {
     // Verifica se o input está marcado
     if (inputCheckbox.checked) {
         // Troca o src da imagem para a seta para cima
-        arrowImage.src = './img/cabeçalho/icons8-seta-para-cima-24.png';
+        arrowImage.src = '/img/cabeçalho/icons8-seta-para-cima-24.png';
     } else {
         // Troca o src da imagem de volta para a seta para baixo
-        arrowImage.src = './img/cabeçalho/icons8-seta-para-expandir-24.png';
+        arrowImage.src = '/img/cabeçalho/icons8-seta-para-expandir-24.png';
     }
 });
 

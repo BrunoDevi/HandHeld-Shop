@@ -1,0 +1,27 @@
+.faq{
+    padding: 5%;
+    font-family: var(--fonte-secundaria);
+}
+
+.faq, .faq__lista, .lista__card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.faq__title{
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
+}
+
+.pergunta{
+    font-size: 18px;
+}
+
+.pergunta::before {
+    font-size: 1.5em;
+    content: '\2022'; /* Código Unicode para um ponto */
+    margin-right: 0.2em; /* Ajuste o espaçamento entre o ponto e o texto conforme necessário */
+    color: #333; /* Cor do ponto, ajuste conforme necessário */
+}
