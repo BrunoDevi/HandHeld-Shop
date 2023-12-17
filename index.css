@@ -3,92 +3,94 @@
 @import url("./styles/footer.css");
 @import url("./styles/carossel.css");
 @import url("./styles/FAQ.css");
+@import url("./styles/SobreNos.css");
+@import url("./styles/ComoFunciona.css");
 
 @font-face {
-    font-family: Kalnia;
-    src: url("./fonts/Kalnia-VariableFont_wdth\,wght.ttf");
+  font-family: Kalnia;
+  src: url("./fonts/Kalnia-VariableFont_wdth\,wght.ttf");
 }
-@font-face{
-    font-family: anonymus;
-    src: url("./fonts/AnonymousPro-Regular.ttf");
+@font-face {
+  font-family: anonymus;
+  src: url("./fonts/AnonymousPro-Regular.ttf");
 }
 
 @keyframes slide-top {
-    0% {
-        transform: translateY(-100px);
-    }
-    50%{
-        transform: translateY(30px);
-    }
-    80%{
-        transform: translateY(-5px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(-100px);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  80% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @keyframes slide-bottom {
-    25%{
-        transform: translateY(10px);
-    }
-    75%{
-        transform: translateY(-5px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+  25% {
+    transform: translateY(10px);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .slide-top {
-	animation: slide-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-top 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .slide-bottom {
-	animation: slide-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-top 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-:root{
-    --cinza-escuro: #dbdbdb;
-    --cinza-medio: #3d3838;
-    --cinza-claro: #1f1c1c;
-    --verde-gradiente: linear-gradient(to right, #00ff00, #008d0c);
-    --fonte-principal: anonymus;
-    --fonte-secundaria: Kalnia;
+:root {
+  --cinza-escuro: #dbdbdb;
+  --cinza-medio: #3d3838;
+  --cinza-claro: #1f1c1c;
+  --verde-gradiente: linear-gradient(to right, #00ff00, #008d0c);
+  --fonte-principal: anonymus;
+  --fonte-secundaria: Kalnia;
 }
 
-body{
-    background-color: var(--cinza-escuro);
-    position: relative;
-    padding-top: 7rem;
+body {
+  background-color: var(--cinza-escuro);
+  position: relative;
+  padding-top: 7rem;
 }
 
 .botao-topo {
-    cursor: pointer;
-    position: fixed;
-    bottom: 4%;
-    right: 2%;
-    width: 50px;
-    height: 50px;
-    background-color: #24ec24;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);;
-    opacity: 0; 
-    transition: opacity 0.3s ease-in-out;
-    z-index: 10000;
+  cursor: pointer;
+  position: fixed;
+  bottom: 4%;
+  right: 2%;
+  width: 50px;
+  height: 50px;
+  background-color: #24ec24;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 10000;
 }
 
 .botao-topo:hover {
-    animation: slide-bottom 0.5s forwards; /* Define a animação scaleUp quando o botão é hover e executa uma vez */
+  animation: slide-bottom 0.5s forwards; /* Define a animação scaleUp quando o botão é hover e executa uma vez */
 }
 
-.botao-topo img{
-    width: 1.5rem;
+.botao-topo img {
+  width: 1.5rem;
 }
 
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
