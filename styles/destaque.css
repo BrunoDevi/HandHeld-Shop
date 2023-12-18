@@ -1,17 +1,16 @@
 .Destaque {
   display: flex;
-  align-items: center;
-  border: solid 50px var(--cinza-claro);
-  width: 100%;
+  justify-content: center;
+  gap: 19.7em;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: var(--cinza-claro);
 }
 
 .Destaque__card {
-  width: 500px;
-  height: 500px;
   padding: 2rem;
   background-color: var(--cinza-claro);
-  box-shadow: 1px 1px 50px #000000 inset;
-  color: white;
+  color: var(--cinza-escuro);
   display: flex;
   flex-direction: column;
   justify-content: center;

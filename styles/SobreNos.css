@@ -25,13 +25,25 @@
 .contato {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1.2rem;
 }
 
-.contato__lista {
+.contato__dados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+}
+
+.contato__info {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+}
+
+.contato__text {
+  text-align: center;
 }
 
 .negrito {
