@@ -1,7 +1,7 @@
 @import url("./styles/cabeçalho.css");
 @import url("./styles/banner.css");
 @import url("./styles/footer.css");
-@import url("./styles/carossel.css");
+@import url("./styles/destaque.css");
 @import url("./styles/FAQ.css");
 @import url("./styles/SobreNos.css");
 @import url("./styles/ComoFunciona.css");
@@ -51,18 +51,24 @@
 }
 
 :root {
-  --cinza-escuro: #dbdbdb;
+  --cinza-escuro: #1f1c1c;
   --cinza-medio: #3d3838;
-  --cinza-claro: #1f1c1c;
+  --cinza-claro: #dbdbdb;
   --verde-gradiente: linear-gradient(to right, #00ff00, #008d0c);
   --fonte-principal: anonymus;
   --fonte-secundaria: Kalnia;
 }
 
 body {
-  background-color: var(--cinza-escuro);
+  background-image: url("/img/wood-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   position: relative;
   padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .botao-topo {

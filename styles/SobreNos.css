@@ -1,5 +1,5 @@
 .SobreNos {
-  background-color: rgb(173, 172, 172);
+  background-color: var(--cinza-claro);
   box-shadow: 3px 3px 10px black;
   font-family: var(--fonte-principal);
   border-radius: 10px;

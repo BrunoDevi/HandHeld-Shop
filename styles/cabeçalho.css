@@ -1,9 +1,9 @@
 .cabeçalho {
   width: 100%;
   height: 7rem;
-  background-color: var(--cinza-escuro);
-  border-bottom: 5px solid var(--cinza-claro);
-  color: var(--cinza-claro);
+  background-color: var(--cinza-claro);
+  border-bottom: 5px solid var(--cinza-escuro);
+  color: var(--cinza-escuro);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,14 +42,13 @@
 
 .topic__title:hover {
   text-decoration: underline;
-  color: white;
   cursor: pointer;
 }
 
 .product__lista-menu {
   display: none;
-  background-color: var(--cinza-escuro);
-  border: 1px solid var(--cinza-claro);
+  background-color: var(--cinza-claro);
+  border: 1px solid var(--cinza-escuro);
   padding: 1.5rem 3.5rem 1.5rem 1.5rem;
   position: absolute;
   top: 100%;
@@ -57,7 +56,6 @@
 
 .lista-menu__link:hover {
   text-decoration: underline;
-  color: white;
 }
 
 .link__check {

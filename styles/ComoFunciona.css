@@ -1,13 +1,17 @@
 .container {
-  padding: 4rem;
+  padding: 2rem;
   font-family: var(--fonte-principal);
 }
 
 .container__title {
   display: flex;
   align-items: center;
+  gap: 2.5em;
   justify-content: center;
-  margin-bottom: 2rem;
+  background-color: var(--cinza-claro);
+  padding: 1em;
+  margin-bottom: 2em;
+  border-radius: 10px;
 }
 
 .title_text_img {
@@ -34,6 +38,9 @@
   flex-direction: column;
   justify-content: center;
   gap: 1.8rem;
+  background-color: var(--cinza-claro);
+  padding: 1.5em;
+  border-radius: 10px;
 }
 
 .list__text {
