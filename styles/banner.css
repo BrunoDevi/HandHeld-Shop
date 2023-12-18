@@ -2,7 +2,7 @@
   width: 100%;
   height: 400px;
   font-family: var(--fonte-secundaria);
-  color: greenyellow;
+  color: var(--cinza-claro);
   text-shadow: 2px 2px 4px #000000;
   font-weight: 400;
   display: flex;
