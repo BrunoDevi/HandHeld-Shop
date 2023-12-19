@@ -1,6 +1,7 @@
 .container {
   padding: 2rem;
-  font-family: var(--fonte-principal);
+  font-family: var(--fonte-secundaria);
+  font-weight: 350;
 }
 
 .container__title {

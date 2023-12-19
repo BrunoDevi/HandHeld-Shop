@@ -1,7 +1,7 @@
 .footer {
   width: 95%;
   background-color: var(--cinza-claro);
-  border-radius: 10px;
+  border-radius: 0.6em;
   margin: 1em 0;
 }
 
@@ -25,7 +25,7 @@
 
 .links__title {
   color: var(--cinza-escuro);
-  font-size: 24px;
+  font-size: 1.56em;
   font-weight: 500;
   font-family: var(--fonte-principal);
 }
@@ -44,28 +44,38 @@
   gap: 1rem;
 }
 
+.footer_SocialMedia {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  align-items: center;
+}
+
+.footer__button {
+  padding: 0.5em;
+  background-color: var(--cinza-escuro);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__button:hover {
+  background-color: var(--cinza-medio);
+}
+
+.footer__button img {
+  width: 1.56em;
+}
+
 #email {
   background: transparent;
   border: 1px solid var(--cinza-escuro);
   height: 2.5rem;
   padding: 1rem;
-  border-radius: 8px;
+  border-radius: 0.5em;
 }
 
 #email::placeholder {
   color: var(--cinza-escuro);
-}
-
-.footer__cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.8rem;
-  border-top: 1px solid rgb(46, 44, 44, 0.3);
-}
-
-.card__icon {
-  width: 30px;
-  height: 30px;
 }
