@@ -23,6 +23,12 @@
   justify-content: center;
 }
 
+.title__title{
+  font-size: 32px;
+  text-decoration: underline;
+  font-weight: 380;
+}
+
 .title__text {
   font-size: 20px;
   text-decoration: solid;
