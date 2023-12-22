@@ -33,6 +33,7 @@
   width: 290px;
   border: 2px solid var(--cinza-claro);
   margin: 1em 0;
+  border-radius: 50%;
 }
 
 .card__links{

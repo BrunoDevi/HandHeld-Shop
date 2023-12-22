@@ -1,0 +1,20 @@
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+}
+
+.video__separador{
+    margin: 5% 0;
+    width: 800px;
+    border: 2px solid var(--cinza-claro);
+    border-radius: 50%;
+}
+
+.video_link{
+    width: 90%;
+    margin-bottom: 3em;
+}
