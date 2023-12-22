@@ -11,7 +11,7 @@
   align-items: center;
   text-align: center;
   gap: 2rem;
-  padding: 8%;
+  padding: 3% 8% 3% 8%;
 }
 
 .banner__titulo {
@@ -40,4 +40,10 @@
   cursor: pointer;
   color: #5e9c00;
   transition: 0.3s ease;
+}
+
+.banner__separador{
+  margin-top: 5%;
+  width: 800px;
+  border: 2px solid var(--cinza-claro);
 }

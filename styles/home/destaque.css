@@ -1,0 +1,75 @@
+.Destaque {
+  display: flex;
+  gap: 4em;
+  padding: 1.3em;
+  border-radius: 10px;
+  color: var(--cinza-claro);
+  font-family: var(--fonte-secundaria);
+}
+
+.Destaque__card {
+  width: 450px;
+  height: 500px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.5em;
+  font-weight: 380;
+}
+
+.card__content{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.card__title{
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.card__separador{
+  width: 290px;
+  border: 2px solid var(--cinza-claro);
+  margin: 1em 0;
+}
+
+.card__links{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  text-align: end;
+}
+
+.card__btn{
+  padding: 0.3em 0.5em;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.card__btn:hover{
+  background-color: var(--cinza-escuro);
+  border-radius: 5px;
+  transition: 0.5s;
+  box-shadow: inset 5px 5px 30px black;
+}
+
+.swiper {
+  width: 444px;
+  height: 500px;
+  background-color: rgba(49, 47, 47, 0.8);
+  border-radius: 10px;
+}
+
+.swiper-slide {
+  position: relative;
+  text-align: center;
+}
+
+.swiper-slide img {
+  border-radius: 10px;
+  width: auto; /* Garante que a imagem não ultrapasse a largura do slide */
+  max-height: 100%; /* Garante que a imagem não ultrapasse a altura do slide */
+}

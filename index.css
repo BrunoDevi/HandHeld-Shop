@@ -1,7 +1,7 @@
 @import url("./styles/cabeçalho.css");
-@import url("./styles/banner.css");
 @import url("./styles/footer.css");
-@import url("./styles/destaque.css");
+@import url("./styles/home/banner.css");
+@import url("./styles/home/destaque.css");
 @import url("./styles/FAQ.css");
 @import url("./styles/SobreNos.css");
 @import url("./styles/ComoFunciona.css");

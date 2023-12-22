@@ -1,3 +1,4 @@
+//BOTÃO 'TOPO' - start
 function Top() { // adiciona a funcão de voltar ao topo da pagina
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -12,14 +13,14 @@ window.addEventListener('scroll', function() {
         botaoTopo.style.opacity = 0;
     }
 });
+//BOTÃO 'TOPO' - end
 
-//configurações seta cabeçalho
 
-// Obtém referências para o input e a imagem
+//SETA CABEÇALHO - start
 var inputCheckbox = document.getElementById('topic__product');
 var arrowImage = document.getElementById('arrowImage');
 
-// Adiciona um ouvinte de eventos para detectar alterações no estado do input
+// Adiciona um eventos para detectar alterações no estado do input
 inputCheckbox.addEventListener('change', function() {
     // Verifica se o input está marcado
     if (inputCheckbox.checked) {
@@ -30,14 +31,18 @@ inputCheckbox.addEventListener('change', function() {
         arrowImage.src = '/img/cabeçalho/icons8-seta-para-expandir-24.png';
     }
 });
+//SETA CABEÇALHO - end
 
 
-
-// configurações do carrosel:
-
+//CAROSSEL CONFIG - start
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     loop: true,
+
+    autoplay: {
+        delay: 2000, // tempo em entre cada slide
+        disableOnInteraction: false, // mantém o autoplay após a interação do usuário
+    },
   
     // If we need pagination
     pagination: {
@@ -55,4 +60,5 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
       el: '.swiper-scrollbar',
     },
-  });
+});
+//CAROSSEL CONFIG - end
